@@ -33,7 +33,7 @@ function browser_based_language_info()
 		'author'		=> 'Destroy666',
 		'authorsite'	=> 'https://github.com/Destroy666x',
 		'codename'		=> 'browser_based_language',
-		'version'		=> 1.0,
+		'version'		=> 1.1,
 		'compatibility'	=> '*'
     );
 }
