@@ -3,7 +3,7 @@
 /*
 Name: Browser-based Language
 Author: Destroy666
-Version: 1.0
+Version: 1.1
 Info: Plugin for MyBB forum software, coded for versions 1.8.x (may work in 1.6.x/1.4.x after some changes).
 It sets forum language based on the HTTP_ACCEPT_LANGUAGE header sent by the browser if no language is chosen by the user.
 Released under GNU GPL v3, 29 June 2007. Read the LICENSE.md file for more information.
@@ -170,7 +170,12 @@ function check_if_lang_available($codename, $avoid, $admin=false)
 	if($codename_cache)
 	{
 		if(isset($codename_cache[$codename]))
-			return $codename_cache[$codename];
+		{
+			if($codename_cache[$codename] != $avoid)
+				return $codename_cache[$codename];
+			else
+				return true;
+		}
 		
 		return false;
 	}

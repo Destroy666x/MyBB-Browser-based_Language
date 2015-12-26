@@ -3,7 +3,7 @@
 
 **Name**: Browser-based Language  
 **Author**: Destroy666  
-**Version**: 1.0  
+**Version**: 1.1  
 
 **Info**:
 ---------
@@ -21,6 +21,7 @@ Released under GNU GPL v3, 29 June 2007. Read the LICENSE.md file for more infor
 **Changelog**:
 --------------
 
+**1.1** - small correction
 **1.0** - initial release  
 
 **Installation**:
