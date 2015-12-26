@@ -12,6 +12,11 @@ Bug reports: my github - https://github.com/Destroy666x
 © 2015 - date('Y')
 */
 
+if(!defined('IN_MYBB'))
+{
+	die('What are you doing?!');
+}
+
 function browser_based_language_info()
 {
 	global $lang;
